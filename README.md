@@ -50,13 +50,13 @@ O projeto utiliza uma tabela de espalhamento (hash table) para armazenar e conta
    ```
 3. Para alternar entre diferentes genomas, modifique as seguintes linhas no arquivo Main.cpp:
    ```
-// Para analisar o genoma do COVID-19
-const char* arquivoEntrada = "sequences.fasta.txt";
-const char* arquivoSaida = "resultados_covid.txt";
-
-// Para analisar o genoma do Ebola
-// const char* arquivoEntrada = "sequences.fasta2.txt";
-// const char* arquivoSaida = "resultados_ebola.txt";
+   // Para analisar o genoma do COVID-19
+   const char* arquivoEntrada = "sequences.fasta.txt";
+   const char* arquivoSaida = "resultados_covid.txt";
+   
+   // Para analisar o genoma do Ebola
+   // const char* arquivoEntrada = "sequences.fasta2.txt";
+   // const char* arquivoSaida = "resultados_ebola.txt";
    ```
 ## Referências
 
